@@ -1,0 +1,195 @@
+/* Carousel slide */
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 180px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: georgia merienda monospace;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 2px;
+    font-family: poppins;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    background: #66ddff;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px;
+    border-radius:5px;
+}
+/* Navigation menu */
+.navbar-nav a{
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand{
+    color:#fff;
+    font-size:25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-link{
+    padding: .2rem 1rem;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.w-100{
+    height: 100vh;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.navbar-nav.ml-auto{
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+}
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background-color: #fff !important;
+}
+}
+/* volunteer box section */
+.volunteer{
+    float:left;
+    width:100%;
+    border:10px solid #FFF;
+    border-bottom:0;
+    background:url(../images/16.png) no-repeat;
+    background-size:cover;
+    padding:55px 25px;
+    position:relative;
+    z-index:1;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+}
+.volunteer.overlap{margin-top:-90px}
+.volunteer:before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background:#ececec;
+  opacity:0.9;
+  z-index:-1;
+}
+.volunteer span{
+  font-size:14px;
+  margin:0 0 10px;
+  display:table;
+}
+.volunteer h3{
+    font-size:28px;
+    font-weight:300;
+    margin:0 0 30px;
+}
+.volunteer p{
+    font-size:16px;
+    color:#565656;
+    margin:0 0 40px;
+}
+.volunteer a{
+    background: #66ddff;
+}
+/*Who we are home page */
+.who-we-are{
+    background:url(../images/13.png) no-repeat scroll right 0 #666666;
+        background-size:auto auto;
+    float:left;
+    width:100%;
+    padding:45px 35px;
+    margin:30px 0 0;
+    z-index:1;
+    position:relative;
+    overflow:hidden;
+    background-size:contain;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+}
+.who-we-are:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    background:#2e2e2e;
+    opacity:0.6;
+}
+.who-we-are > span{
+    font-size:12px;
+    background:red;
+    color:#FFF;
+    padding:3px 8px;
+    border-radius:4px;
+    font-weight:600;
+    margin:0 0 15px;
+    display:table;
+}
+.who-we-are h3{
+    color:#FFF;
+    font-weight:300;
+    line-height:1.2;
+    padding-right:200px;
+}
+.who-we-are  h3 span{font-weight:700}
+.who-we-are p{
+    padding-right:230px;
+    color:#FFF;
+    color:#e2e2e2;
+    margin:0 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
